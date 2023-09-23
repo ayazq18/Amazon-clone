@@ -238,7 +238,7 @@ span{
 /* left-aside */
 
 .shopping-section{
-
+    display: flex;
 }
 
 .left-aside{
@@ -249,16 +249,151 @@ span{
 
 .aside1{
     width: fit-content;
-    margin: 20px 0 0 -20px;
-    /* border: 0.5px solid rgb(173, 170, 170); */
+    margin: 20px 0 0 10px;
 }
 
-.aside1 ul{
-    list-style-type: none;
+.aside1 h4{
+    padding: 2px;
+    text-decoration: none;
+    
 }
 
-.aside1 ul a{
+.aside1 h4 a{
     text-decoration: none;
     font-size: 14px;
+    font-weight: 400;
     color: #007185;
+}
+
+.aside1 h4 a:hover{
+    color: #d17f13;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.aside2{
+    margin-left:10px;
+    width: 221px;
+}
+
+.aside2 h2{
+    font-size: 18px;
+    line-height: 24px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    width: 221px;
+}
+
+.aside2 a{
+    
+    text-wrap: wrap;
+    text-decoration: none;
+    font-size: 14px;
+    color: #0f1111;
+    margin-left: 0px 0px 0px 5px;
+    padding-left: 2px;
+    padding-bottom: 10px;
+    /* font-weight: 700; */
+}
+
+.aside2 h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: #007185;
+    margin-bottom: 5px;
+}
+
+.aside2{
+    margin: 20px 0 0 10px;
+}
+
+.aside3 h4{
+    padding-bottom: 2px;
+    text-decoration: none;
+    
+}
+
+.aside3 h4 a{
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #007185;
+}
+
+.aside3 h4 a:hover{
+    color: #d17f13;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.shopping-mid{
+    width: 319.35px;
+    height: 352px;
+    border-top: 0.5px solid rgb(173, 170, 170);
+    border-right: 0.5px solid rgb(173, 170, 170);
+    padding: 16px 16px 16px 16px;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    grid-template-rows: auto;
+}
+
+.shopping-mid-content{
+    margin: 0px 0px 8px;
+    padding: 8px;
+}
+
+.shopping-mid-content img{
+    position: absolute;
+    margin: auto;
+    top: -110px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.shopping-mid a{
+    /* width: 75%; */
+    margin: 0 30px 0px 0px;
+    position: relative;
+    bottom: -300px;
+    font-size: 14px;
+    color: #0f1111;
+    text-align: left;
+    text-decoration: none;
+    text-wrap: wrap;
+}
+
+.shopping-mid a:hover{
+    color: #d17f13;
+}
+
+.shopping-mid-off{
+    margin: 0 20px 30px 0;
+    position: absolute;
+    bottom: 0;
+}
+
+.mid-off{
+    font-size: 12px;
+    color: #ffffff;
+    background: #cc0c39;
+    margin: 0px 6px 0px 0px;
+    padding: 4px 6px;
+    position: relative;
+    top: -50px;
+}
+
+.mid-deal{
+    color: #cc0c39;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #ffffff;
+    position: relative;
+    top: -50px;
 }
