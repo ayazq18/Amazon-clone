@@ -137,94 +137,25 @@ span{
 }
 
 
-/* nav-subnav */
-.nav-subnav{
-    height: 40px;
-    background: #fafafa;
-    display: flex;
-    color: white;
-    align-items: center;
-    justify-content: start;
-    padding-left: 20px;
-    height: 33px;
-}
-
-.subnav-opt{
-    width: 70%;
-    font-size: 0.85rem;
-}
-
-.subnav-opt p{
-    font-size: 12px;
-    display: inline;
-    margin-left: 15px;
-    color: #333;
-}
-
-.t-deals{
-    font-weight: 700;
-}
-
-.subnav-opt p:hover{
-    color: #d17f13;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
 /* header-over */
-
-.t-deals-section h1{
-    font-size: 28px;
-    font-weight: 400;
-    padding: 15px;
-}
-
-
-.slot1{
-    background: rgb(234, 237, 237);
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding: 15px;
-    gap: 20px;
-    cursor: pointer;
-}
-
-.slot1-content{
-    display: inline-block;
-    text-align: center;
-}
-
-.slot1 img{
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-}
-
-.slot1 a{
-    width: 90px;
-    text-wrap: wrap;
-    text-align: center;
-    display: inline-block;
-    font-size: 14px;
-    text-decoration: none;
-    color: #111111;
-    margin-top: 20px;
-}
 
 /* sort */
 .sort-by{
     display: flex;
-    justify-content: end;
-    padding: 2vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    box-shadow: 0px 0px 0px 01px rgb(196, 192, 192);
+}
+
+.sort-by span{
+    color: #0f1111;
+    font-size: 14px;
 }
 .sort-content{
     font-size: 11px;
     background: #F0F2F2;
-    width: fit-content;
-    position: relative;
-    right: 0px;
+    width: 100px;
     padding: 5px;
     border-radius: 20px;
     box-shadow: 0px 2px 2px 1px rgb(196, 192, 192);
@@ -242,7 +173,7 @@ span{
 }
 
 .left-aside{
-    border: 0.5px solid rgb(173, 170, 170);
+    /* border: 0.5px solid rgb(173, 170, 170); */
     width: 241.8px;
     height: 2007px;
 }
@@ -330,10 +261,9 @@ span{
 
 
 .shopping-mid{
+    background-color: ;
     width: 285.35px;
     height: 352px;
-    border-top: 0.5px solid rgb(173, 170, 170);
-    border-right: 0.5px solid rgb(173, 170, 170);
     padding: 16px 16px 16px 16px;
     position: relative;
     display: flex;
