@@ -208,16 +208,15 @@ span{
 }
 
 .aside2 h2{
-    font-size: 18px;
-    line-height: 24px;
-    padding-top: 20px;
+    font-size: 14px;
+    line-height: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
     font-weight: bold;
     width: 221px;
 }
 
 .aside2 a{
-    
     text-wrap: wrap;
     text-decoration: none;
     font-size: 14px;
@@ -225,7 +224,11 @@ span{
     margin-left: 0px 0px 0px 5px;
     padding-left: 2px;
     padding-bottom: 10px;
-    /* font-weight: 700; */
+}
+
+.aside2 a:hover{
+    color: #d17f13;
+    cursor: pointer;
 }
 
 .aside2 h3{
@@ -237,6 +240,12 @@ span{
 
 .aside2{
     margin: 20px 0 0 10px;
+}
+
+#see-more{
+    display: none;
+    text-decoration: none;
+    color: #007185;
 }
 
 .aside3 h4{
@@ -261,7 +270,7 @@ span{
 
 
 .shopping-mid{
-    background-color: ;
+    /* background-color: ; */
     width: 285.35px;
     height: 352px;
     padding: 16px 16px 16px 16px;
