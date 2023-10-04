@@ -231,6 +231,10 @@ span{
     cursor: pointer;
 }
 
+#aside2-more{
+    color: #007185;
+}
+
 .aside2 h3{
     font-size: 14px;
     font-weight: 400;
@@ -258,7 +262,7 @@ span{
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
-    color: #007185;
+    color: #0f1111;
 }
 
 .aside3 h4 a:hover{
@@ -267,20 +271,47 @@ span{
     cursor: pointer;
 }
 
+.min-inp{
+    display: flex;
+    align-items: center;
+    margin: 0px 0px 10px;
+    font-size: 14px;
+}
+
+.min-inp input{
+    background: #ffffff;
+    margin: 5px 3px 0 0;
+    padding: 8px 7px 8px 7px;
+    width: 50px;
+    gap: 5px;
+    border: 1.5px solid #888C8C;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(15,17,17,.15) inset;
+    outline: 0;
+}
+
+.min-inp button{
+    background-color: transparent;
+    border-radius: 10px;
+    border: 0.1px solid gray;
+    box-shadow: 0px 0px 0px rgba(15,17,17,.15) inset;
+    margin-left: 4px;
+    height: 31px;
+    width: 39px;
+} 
 
 
 .shopping-mid{
-    /* background-color: ; */
-    width: 285.35px;
-    height: 352px;
+    border: none;
+    width: 215px;
+    height: 550px;
+    box-shadow: 0px 0px 0px 0.1px gray;
+    border-radius: 5px;
     padding: 16px 16px 16px 16px;
     position: relative;
+    top: 40px;
     display: flex;
     justify-content: center;
-}
-
-.shop4 .shopping-mid{
-    border-right: none;
 }
 
 .shopping-mid-content{
@@ -289,53 +320,132 @@ span{
 }
 
 .shopping-mid-content img{
+    width: 200px;
+    height: 200px;
     position: absolute;
     margin: auto;
-    top: -110px;
+    top: -360px;
     right: 0;
     bottom: 0;
     left: 0;
-    max-width: 100%;
-    max-height: 100%;
 }
 
-.shopping-mid a{
-    /* width: 75%; */
-    /* margin: 0 30px 0px 0px; */
+.shopping-mid-section{
     position: relative;
-    bottom: -300px;
-    font-size: 14px;
-    color: #0f1111;
-    text-align: left;
-    text-decoration: none;
-    text-wrap: wrap;
-}
-
-.shopping-mid a:hover{
-    color: #d17f13;
+    top: 20px;
 }
 
 .shopping-mid-off{
-    margin: 0 20px 30px 0;
-    position: absolute;
-    bottom: 0;
+    margin: 0 20px 80px -5px;
+    position: relative;
+    top: 230px;
 }
 
 .mid-off{
     font-size: 12px;
-    color: #ffffff;
-    background: #cc0c39;
+    color: #0f1111;
     margin: 0px 6px 0px 0px;
     padding: 4px 6px;
     position: relative;
     top: -50px;
 }
 
-.mid-deal{
-    color: #cc0c39;
+.shopping-mid-a a{
+    text-decoration: none;
+    position: relative;
+    top: 110px;
+    color: #0f1111;
+}
+
+.shopping-mid-a a:hover{
+    color: #007185;
+}
+
+
+.spo-icon{
     font-size: 12px;
-    font-weight: 700;
-    background-color: #ffffff;
     position: relative;
     top: -50px;
+    left: -10px;
+}
+
+.shopping-mid-sec1{
+    width: 220px;
+    position: relative;
+    top: 130px;
+}
+
+.shopping-mid-sec1 span{
+    background-color: rgba(128, 128, 128, 0.174);
+    padding: 7px;
+    margin-right: 5px;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.shopping-mid-i {
+    position: relative;
+    top: 145px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.shopping-mid-i a{
+    text-decoration: none;
+    color: #007185;
+}
+
+.shopping-mid-down-i{
+    font-size: 10px;
+    opacity: 50%;
+}
+
+.shopping-mid-p{
+    position: relative;
+    top: 150px;
+    font-size: 14px;
+}
+
+.shopping-mid-ship{
+    position: relative;
+    top: 150px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.shopping-mid-ship #span1{
+    font-size: 25px;
+}
+.shopping-mid-ship #span2{
+    font-size: 13px;
+}
+
+.shopping-mid-ship-india{
+    position: relative;
+    top: 150px;
+}
+
+.shop1{
+    height: fit-content;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto;
+    grid-gap: 8px;
+}
+
+
+/*card4*/
+
+.best-sel {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 56px;
+}
+
+.best-sel:hover {
+    white-space: nowrap;
+    overflow: visible;
+    width: 56px;
 }
