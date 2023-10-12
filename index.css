@@ -202,6 +202,55 @@ span{
     color: orange;
 }
 
+/* --mid-section */
+.t-deals-section{
+    position: relative;
+    right: 540px;
+    top: 60px;
+}
+.t-deals-section h1{
+    font-size: 21px;
+    font-weight: 600;
+    padding: 15px;
+    color: #0f1111;
+}
+
+
+.slot1{
+    background: rgb(255, 255, 255);
+    height: 285px;
+    width: 94%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 56px 25px 25px;
+    gap: 20px;
+    cursor: pointer;
+    margin: 0 0 20px;
+}
+
+.slot1-content{
+    display: inline-block;
+    text-align: center;
+}
+
+.slot1 img{
+    width: 220px;
+    height: 220px;
+   margin-top: 30px;
+}
+
+.slot1 a{
+    width: 90px;
+    text-wrap: wrap;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    text-decoration: none;
+    color: #111111;
+    margin-top: 20px;
+}
+
 /* --footer-- */
 footer{
     margin-top: 15px;
